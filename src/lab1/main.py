@@ -57,4 +57,5 @@ def test_list1_sort_list_by_last_element_of_tuple():
   print('===========================================================================')
   print('In: [' +  ', '.join(map(str, list)) + '] -> Out: [' +  ', '.join(map(str, list1.sort_list_by_last_element_of_tuple(list))) + ']')
 
-main()
+if __name__ == '__main__':
+  main()

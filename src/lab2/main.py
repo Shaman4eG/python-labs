@@ -64,4 +64,5 @@ def test_list2_merge_lists_and_sort_in_ascending_order():
   print('=================================================================================')
   print('In: list1: ' +  str(list0) + ' list2: '+ str(list1) + ' -> Out: ' + str(list2.merge_lists_and_sort_in_ascending_order(list0, list1)))
 
-main()
+if __name__ == '__main__':
+  main()
