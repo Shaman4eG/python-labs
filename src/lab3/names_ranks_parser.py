@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 
 def extr_name(filename):
   try:
-    contents = open(filename).read()
+    with open(filename) as f:
+      contents = f.read()
   except IOError:
     print("Error: can\'t find file or read data")
     sys.exit(2)
@@ -28,7 +29,8 @@ def get_top_10_names_from_all_files(file_global_path, files_names, woman_names =
   
 def get_top_10_names_from_file(file_full_path, woman_names):
   try:
-    contents = open(file_full_path).read()
+    with open(file_full_path) as f:
+      contents = f.read()
   except IOError:
     print("Error: can\'t find file or read data")
     sys.exit(2)

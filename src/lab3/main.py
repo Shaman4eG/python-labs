@@ -1,10 +1,10 @@
-import sys
+import sys 
 import os
 import names_ranks_parser
 
 # To pass args either:
 # - modify launch.json
-# - or use command in cmd: python "C:\Users\daniel\Desktop\Uni\4 курс\python\python_labs\src\lab3\main.py" args
+# - or use command in cmd: python "C:\Users\daniel\Desktop\Uni\4 курс\python\python_labs\src\lab3\main.py" name2006.html name2008.html,
 def main(file_global_path):
   files_names = sys.argv[1:]
   if not files_names:
