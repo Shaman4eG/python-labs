@@ -1,0 +1,33 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px
+}
+
+.image-to-guess {
+  max-width: 800px;
+  max-height: 800px;
+}
+
+.description {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.answer-input {
+  margin-top: 5px; 
+  font-size: 18px;
+}
+
+.submit-button {
+  margin-top: 15px
+}
+
+#answer_result {
+  margin-top: 15px;
+}

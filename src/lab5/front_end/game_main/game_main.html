@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="game_main.css">
+    <title>Guess who!</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <img id="person_to_guess_image" class="image-to-guess"/>
+      <label for="input" class="description">Write full English name of person in photo:</label> 
+      <input type="text" id="input" class="answer-input" size="40">
+      <input type="button" class="submit-button" value="Submit answer" onclick="submitGuess()">
+      <div id="answer_result"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="game_main.js"></script>
+  </body>
+</html>
