@@ -1,0 +1,37 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px
+}
+
+.submit-button {
+  margin-top: 5px;
+}
+
+.article {
+  max-width: 90%;
+  border-bottom: solid 1px black
+}
+
+.separator {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
